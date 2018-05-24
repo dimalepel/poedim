@@ -24,6 +24,7 @@
   
   font-family: "Proxima Nova Regular";
   font-weight: 600;
+  letter-spacing: 1px;
   color: #1a1a19;
   font-size: 21px;
   line-height: 40px;
@@ -35,6 +36,7 @@
   
   font-family: "Proxima Nova Regular";
   font-weight: 400;
+  letter-spacing: 1px;
   font-size: 21px;
   line-height: 40px;
   color: #979796;
@@ -48,6 +50,7 @@
   border: none;
   font-family: "SF UI Display";
   font-weight: 700;
+  letter-spacing: 1.5px;
   color: #ef7f1a;
   font-size: 21px;
   text-indent: 0.01px;
@@ -73,6 +76,7 @@
   font-size: 30px;
   font-family: "SF UI Display";
   font-weight: 900;
+  letter-spacing: 2.2px;
   color: #fff;
   text-transform: upperase;
   line-height: 92px;
@@ -86,6 +90,7 @@
   margin: 25px 0;
   
   font-size: 17px;
+  letter-spacing: 0.9px;
   color: #3bad60;
   font-weight: 400;
   font-family: "SF UI Display";

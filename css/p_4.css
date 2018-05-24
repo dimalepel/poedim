@@ -10,6 +10,7 @@
   padding-right: 20px;
   
   font-size: 21px;
+  letter-spacing: 1.5px;
   font-family: "SF UI Display";
   font-weight: 900;
   color: #000;
@@ -53,6 +54,7 @@
   margin-bottom: 15px;
   
   font-family: "SF UI Display";
+  letter-spacing: 1.8px;
   font-weight: 700;
   font-size: 25px;
   color: #ef7f1a;
@@ -63,6 +65,7 @@
   font-family: "SF UI Display";
   font-weight: 400;
   font-size: 18px;
+  letter-spacing: 0.9px;
   color: #1b1a19;
 }
 .product-active {

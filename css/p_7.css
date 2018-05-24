@@ -32,6 +32,7 @@
 .cart-product-title {
   font-family: "SF UI Display";
   font-weight: 700;
+  letter-spacing: 1.5px;
   font-size: 21px;
   color: #ef7f1a;
 }
@@ -100,6 +101,7 @@
 }
 .form-input--promo {
   color: #f70a18;
+  letter-spacing: 1.5px;
   font-weight: 700;
   font-family: "SF UI Display";
 }
@@ -109,6 +111,7 @@
   
   font-family: "Proxima Nova Regular";
   font-weight: 700;
+  letter-spacing: 1.5px;
   color: #fff;
   font-size: 21px;
   line-height: 52px;
@@ -121,6 +124,7 @@
 .form-item__title {
   font-size: 21px;
   line-height: 52px;
+  letter-spacing: 1.5px;
   color: #1a1a19;
   font-family: "SF UI Display";
   font-weight: 700;
@@ -128,6 +132,7 @@
 .form-item__sale-title {
   font-size: 19px;
   color: #ef7f1a;
+  letter-spacing: normal;
 }
 .form-item__sale-discont {
   font-weight: 400;
@@ -163,6 +168,7 @@
   font-weight: 700;
   color: #ef7f1a;
   font-size: 21px;
+  letter-spacing: 1.5px;
   text-indent: 0.01px;
   text-overflow: '';
   
@@ -182,6 +188,7 @@
   
   font-family: "SF UI Display";
   font-weight: 700;
+  letter-spacing: 0.9px;
   color: #3bad60;
   font-size: 19px;
   line-height: 31px;
@@ -193,6 +200,7 @@
   width: 100%;
   
   font-size: 30px;
+  letter-spacing: 2.2px;
   font-family: "SF UI Display";
   font-weight: 900;
   color: #fff;

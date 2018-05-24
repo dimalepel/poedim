@@ -8,6 +8,7 @@
   margin-bottom: 25px;
   
   font-size: 25px;
+  letter-spacing: 1.8px;
   font-family: "SF UI Display";
   font-weight: 700;
   color: #ef7f1a;
@@ -15,6 +16,7 @@
 .news-description {
   font-family: "SF UI Display";
   font-weight: 400;
+  letter-spacing: 0.9px;
   font-size: 18px;
   line-height: 28px;
   color: #1b1a19;
