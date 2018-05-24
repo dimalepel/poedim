@@ -1,0 +1,98 @@
+/* очистить корзину */
+.clear-cart {
+  width: 13px;
+  height: 19px;
+  
+  background-image: url(../img/clear-cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* форма */
+.order-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 20px;
+  
+  border-bottom: 1px solid #e7e7e7;
+}
+.order-label {
+  margin-right: 10px;
+  
+  font-family: "Proxima Nova Regular";
+  font-weight: 600;
+  color: #1a1a19;
+  font-size: 21px;
+  line-height: 40px;
+  
+  border: none;
+}
+.order-input {
+  flex-grow: 1;
+  
+  font-family: "Proxima Nova Regular";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 40px;
+  color: #979796;
+  
+  border: none;
+}
+.form-select {
+  width: 100%;
+  
+  line-height: 52px;
+  border: none;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  color: #ef7f1a;
+  font-size: 21px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  
+  background-image: url(../img/plus.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.other-item {
+  padding: 20px;
+}
+.other-item--order {
+  padding-top: 0;
+}
+.form-button-large {
+  width: 100%;
+  
+  font-size: 30px;
+  font-family: "SF UI Display";
+  font-weight: 900;
+  color: #fff;
+  text-transform: upperase;
+  line-height: 92px;
+  text-align: center;
+  
+  border-radius: 12px;
+  border: none;
+  background-color: #2da755;
+}
+.other-text {
+  margin: 25px 0;
+  
+  font-size: 17px;
+  color: #3bad60;
+  font-weight: 400;
+  font-family: "SF UI Display";
+  line-height: 25px;
+}
+.inline-link {
+  font-weight: 700;
+  font-family: "SF UI Display";
+  text-decoration: underline;
+}

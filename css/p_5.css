@@ -1,0 +1,160 @@
+/* карточка товара */
+.single-thumbnail {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  
+  border: 1px solid #e7e7e7;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.single-details {
+  text-align: center;
+}
+.single-product-title {
+  margin-bottom: 30px;
+  
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-size: 35px;
+  color: #ef7f1a;
+}
+.single-product-description {
+  margin-bottom: 36px;
+  padding: 0 30px;
+  
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #1b1a19;
+}
+.single-atr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.single-atr__item {
+  margin: 0 30px;
+  
+  font-size: 25px;
+  font-family: "SF UI Display";
+  font-weight: 600;
+  color: #010101;
+}
+.single-atr__item span {
+  font-size: 18px;
+  font-weight: 400;
+}
+.single-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+  height: 85px;
+  padding-right: 40px;
+  padding-left: 40px;
+  
+  border-top: 1px solid #e7e7e7;
+}
+.single-product-price {
+  position: relative;
+  z-index: 20;
+  
+  font-family: "SF UI Display";
+  font-weight: 600;
+  font-size: 25px;
+  color: #2da755;
+}
+.single-product-price span {
+  font-size: 16px;
+  font-weight: 400;
+}
+.single-product-counter {
+  position: relative;
+  z-index: 20;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.single-product-counter__active {
+  width: 25px;
+  height: 25px;
+  
+  border: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  cursor: pointer;
+}
+.single-product-counter__active.minus{
+  background-image: url(../img/minus.png);  
+}
+.single-product-counter__active.plus{
+  background-image: url(../img/plus.png);  
+}
+.single-product-counter__text {
+  width: 81px;
+  
+  font-family: "SF UI Display";
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #2da755;
+  text-align: center;
+  
+  border: none;
+  background-color: #fff;
+}
+.single-share {
+  position: absolute;
+  left: 0;
+  right: 0;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.single-share__button {
+  display: block;
+  width: 28px;
+  height: 34px;
+  
+  background: #fff;
+  background-image: url(../img/share.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  border: none;
+}

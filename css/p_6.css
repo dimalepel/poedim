@@ -1,0 +1,21 @@
+/* список новостей */
+.news-item {
+  padding: 40px 20px 20px 20px;
+  
+  border-bottom: 1px solid #e7e7e7;
+}
+.news-title {
+  margin-bottom: 25px;
+  
+  font-size: 25px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  color: #ef7f1a;
+}
+.news-description {
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1b1a19;
+}

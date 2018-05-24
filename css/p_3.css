@@ -1,0 +1,102 @@
+/* выезжающее меню */
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 605px;
+  
+  background-color: #f70a18;
+  background-image: url(../img/aside-shadow.png);
+  background-repeat: repeat-y;
+  background-position: top right;
+}
+.logo {
+  display: block;
+  margin: 51px auto;
+}
+/* первый список меню */
+.main-list {
+  padding-top: 53px;
+  padding-bottom: 33px;
+  
+  border-top: 1px solid #d50a10;
+  border-bottom: 1px solid #d50a10;
+}
+.main-list__item {
+  padding-left: 44px;
+  
+  font-size: 24px;
+  color: #fff;
+  line-height: 77px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+}
+.main-list__item.current {
+  background-color: #d50a10;
+}
+/* второй список */
+.other-list {
+  padding-top: 37px;
+  padding-bottom: 38px;
+  margin-bottom: 60px;
+  
+  border-bottom: 1px solid #d50a10;
+}
+.other-list__item {
+  padding-left: 44px;
+  
+  font-size: 24px;
+  color: #fff;
+  line-height: 77px;
+  font-family: "SF UI Display";
+  font-weight: 400;
+}
+/* социальные ссылки */
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+
+  padding-left: 44px;
+  margin-bottom: 40px;
+}
+.social__item {
+  display: block;
+  margin-right: 88px;
+  padding-left: 44px;
+  
+  font-family: "SF UI Display";
+  font-size: 400;
+  font-size: 21px;
+  line-height: 38px;
+  color: #fff;
+  text-decoration: none;
+  
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.vk--social__item {
+  background-image: url(../img/vk.png);
+}
+.in--social__item {
+  background-image: url(../img/in.png);
+}
+/* телефон */
+.aside-phone {
+  margin-left: 44px;
+  
+  font-size: 21px;
+  line-height: 38px;
+  color: #fff;
+  font-family: "SF UI Display";
+  font-weight: 400;
+}
+.aside-phone span {
+  display: block;
+  font-weight: 700;
+  font-size: 27px;
+}

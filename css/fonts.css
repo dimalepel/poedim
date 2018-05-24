@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../fonts/Proxima-Nova-Regular.otf");
+  
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../fonts/Proxima-Nova-Bold.otf");
+  
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../fonts/Proxima-Nova-Semibold.otf");
+  
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../fonts/Proxima-Nova-Black.otf");
+  
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: "SF UI Display";
+	src: url("../fonts/SF-UI-Display-Black.ttf");
+  
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: "SF UI Display";
+	src: url("../fonts/SF-UI-Display-Bold.ttf");
+  
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "SF UI Display";
+	src: url("../fonts/SF-UI-Display-Regular.ttf");
+  
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "SF UI Display";
+	src: url("../fonts/SF-UI-Display-Semibold.ttf");
+  
+	font-style: normal;
+	font-weight: 600;
+}

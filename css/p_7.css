@@ -1,0 +1,206 @@
+/* очистить корзину */
+.clear-cart {
+  width: 13px;
+  height: 19px;
+  
+  background-image: url(../img/clear-cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* корзина */
+.cart-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px;
+  
+  border-bottom: 1px solid #e7e7e7;
+}
+.cart-product-thumbnail {
+  display: block;
+  width: 149px;
+  height: 127px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 17px;
+  
+  border: 1px solid #e7e7e7;
+}
+.cart-product-title {
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-size: 21px;
+  color: #ef7f1a;
+}
+/* счетчик */
+.product-counter--cart {
+  margin-left: auto;
+}
+.product-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.product-counter__active {
+  width: 25px;
+  height: 25px;
+  
+  border: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  cursor: pointer;
+}
+.product-counter__active.minus{
+  background-image: url(../img/minus.png);  
+}
+.product-counter__active.plus{
+  background-image: url(../img/plus.png);  
+}
+.product-counter__text {
+  width: 81px;
+  
+  font-family: "SF UI Display";
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #2da755;
+  text-align: center;
+  
+  border: none;
+  background-color: #fff;
+}
+/* форма оформления */
+.form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px;
+  
+  border-bottom: 1px solid #e7e7e7;
+}
+.form-input {
+  font-size: 21px;
+  line-height: 52px;
+  
+  border: none;
+}
+.form-input--promo {
+  color: #f70a18;
+  font-weight: 700;
+  font-family: "SF UI Display";
+}
+.form-button {
+  padding: 0 25px;
+  margin-left: auto;
+  
+  font-family: "Proxima Nova Regular";
+  font-weight: 700;
+  color: #fff;
+  font-size: 21px;
+  line-height: 52px;
+  
+  border: none;
+  background-color: #2da755;
+  border-radius: 5px;
+}
+/* итого */
+.form-item__title {
+  font-size: 21px;
+  line-height: 52px;
+  color: #1a1a19;
+  font-family: "SF UI Display";
+  font-weight: 700;
+}
+.form-item__sale-title {
+  font-size: 19px;
+  color: #ef7f1a;
+}
+.form-item__sale-discont {
+  font-weight: 400;
+}
+.cart-price {
+  margin-left: auto;
+  
+  font-family: "SF UI Display";
+  font-weight: 700;
+  color: #2da755;
+  font-size: 25px;
+  line-height: 52px;
+}
+.cart-price__currency {
+  font-size: 16px;
+  font-weight: 400;
+}
+.cart-price__sale {
+  font-size: 19px;
+  color: #ef7f1a;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.cart-price-sale__currency {
+  font-size: 15px;
+}
+.form-select {
+  width: 100%;
+  
+  line-height: 52px;
+  border: none;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  color: #ef7f1a;
+  font-size: 21px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  
+  background-image: url(../img/plus.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.other-item {
+  padding: 20px;
+}
+.sale-alert {
+  margin-bottom: 20px;
+  
+  font-family: "SF UI Display";
+  font-weight: 700;
+  color: #3bad60;
+  font-size: 19px;
+  line-height: 31px;
+}
+.sale-alert__currency {
+  font-size: 14px;
+}
+.form-button-large {
+  width: 100%;
+  
+  font-size: 30px;
+  font-family: "SF UI Display";
+  font-weight: 900;
+  color: #fff;
+  text-transform: upperase;
+  line-height: 92px;
+  text-align: center;
+  
+  border-radius: 12px;
+  border: none;
+  background-color: #2da755;
+}

@@ -1,0 +1,130 @@
+/* контент */
+.content--not-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.category-subtitle {
+  padding-top: 26px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  font-size: 21px;
+  font-family: "SF UI Display";
+  font-weight: 900;
+  color: #000;
+  text-transform: uppercase;
+}
+/* товар */
+.product-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  
+  border-bottom: 1px solid #e7e7e7;
+}
+.product-thumbnail {
+  display: block;
+  width: 249px;
+  height: 212px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 17px;
+  
+  border: 1px solid #e7e7e7;
+}
+.product-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.product-title {
+  margin-bottom: 15px;
+  
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-size: 25px;
+  color: #ef7f1a;
+}
+.product-description {
+  margin-bottom: auto;
+  
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-size: 18px;
+  color: #1b1a19;
+}
+.product-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.product-price {
+  font-family: "SF UI Display";
+  font-weight: 600;
+  font-size: 25px;
+  color: #2da755;
+}
+.product-price span {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* счетчик */
+.product-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.product-counter__active {
+  width: 25px;
+  height: 25px;
+  
+  border: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  cursor: pointer;
+}
+.product-counter__active.minus{
+  background-image: url(../img/minus.png);  
+}
+.product-counter__active.plus{
+  background-image: url(../img/plus.png);  
+}
+.product-counter__text {
+  width: 81px;
+  
+  font-family: "SF UI Display";
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #2da755;
+  text-align: center;
+  
+  border: none;
+  background-color: #fff;
+}

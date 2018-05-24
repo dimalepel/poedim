@@ -1,0 +1,70 @@
+/* шапка */
+.header {
+  position: relative;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+        
+  height: 64px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+  background-color: #f70a18;
+}
+.menu-trigger {
+  position: relative;
+  z-index: 20;
+  
+  width: 20px;
+  height: 19px;
+  
+  background-image: url(../img/menu-burger.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  cursor: pointer;
+}
+.header-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 150px;
+  
+  font-size: 22px;
+  font-family: "Proxima Nova Regular";
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.header-price {
+  position: relative;
+  z-index: 20;
+  
+  padding-left: 25px;
+
+  font-size: 21px;
+  color: #fff;
+  font-family: "SF UI Display";
+  font-weight: 700;
+
+  background-image: url(../img/cart.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  
+  cursor: pointer;
+}
+.header-price span {
+  font-size: 14px;
+  font-weight: 400;
+}

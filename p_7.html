@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>p_7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- общие стили -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!-- стили страницы -->
+    <link href="css/p_7.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="header">
+      <div class="menu-trigger"></div>
+      <div class="header-title">МЕНЮ</div>
+      <div class="clear-cart"></div>
+    </div>
+    
+    <div class="cart">
+      <!-- товары -->
+      <div class="cart-product">
+        <img class="cart-product-thumbnail" src="img/mini-thumbnail.png" alt="">
+        <div class="cart-product-title">Гамбургер Стейк Хаус</div>
+        <div class="product-counter product-counter--cart">
+          <button class="product-counter__active minus"></button>
+          <input type="text" class="product-counter__text" value="3">
+          <button class="product-counter__active plus"></button>
+        </div>
+      </div>
+      <div class="cart-product">
+        <img class="cart-product-thumbnail" src="img/mini-thumbnail.png" alt="">
+        <div class="cart-product-title">Гамбургер Стейк Хаус</div>
+        <div class="product-counter product-counter--cart">
+          <button class="product-counter__active minus"></button>
+          <input type="text" class="product-counter__text" value="3">
+          <button class="product-counter__active plus"></button>
+        </div>
+      </div>
+      <!-- товары -->
+      <form>
+        <div class="form-item">
+          <input type="text" class="form-input form-input--promo" value="" placeholder="Введите промокод">
+          <button type="submit" class="form-button">Применить</button>
+        </div>
+      </form>
+      <form>
+        <div class="form-item">
+          <div class="form-item__title">Итого:  
+            <span class="form-item__sale-title">Скидка 10% 
+              <span class="form-item__sale-discont">(517 Р)</span>
+            </span>
+          </div>
+          <div class="cart-price">
+            <span class="cart-price__sale">1850 <span class="cart-price-sale__currency">р</span></span>
+            1 333 <span class="cart-price__currency">р</span>
+          </div>
+        </div>
+        <div class="form-item">
+          <select class="form-select">
+            <option>Доставка до двери</option>
+            <option>Самовывоз</option>
+          </select>
+        </div>
+        <div class="other-item">
+          <div class="sale-alert">Доставка бесплатна и доступна, только если, сумма заказа не менее 400 <span class="sale-alert__currency">Р</span>, дозакажите товаров на 136 <span class="sale-alert__currency">Р</span>.</div>
+          <button type="submit" class="form-button-large">ОФОРМИТЬ ЗАКАЗ</button>
+        </div>
+      </form>
+    </div>
+    
+  </body>
+</html>
