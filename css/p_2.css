@@ -4,6 +4,7 @@
 }
 .slider img {
   display: block;
+  width: 100%;
 }
 .slider-pagination {
   display: -webkit-box;

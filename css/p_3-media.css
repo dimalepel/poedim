@@ -1,0 +1,43 @@
+@media only screen and (max-width : 640px) {
+  /* логотип */
+  .logo {
+    max-width: 225px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  /* первое меню */
+  .main-list {
+    padding-top: 47px;
+  }
+  .main-list__item {
+    font-size: 21px;
+    line-height: 68px;
+    padding-left: 38px;
+  }
+  /* второе меню */
+  .other-list {
+    padding-bottom: 28px;
+    margin-bottom: 48px;
+  }
+  .other-list__item {
+    font-size: 21px;
+    line-height: 68px;
+    padding-left: 38px;
+  }
+  /* социальные ссылки */
+  .social {
+    padding-left: 38px;
+  }
+  .social__item {
+    font-size: 18px;
+    margin-right: 76px;
+  }
+  /* телефон */
+  .aside-phone {
+    font-size: 18px;
+    margin-left: 38px;
+  }
+  .aside-phone span {
+    font-size: 24px;
+  }
+}

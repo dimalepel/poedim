@@ -10,6 +10,7 @@
     <link href="css/all.css" rel="stylesheet">
     <!-- стили страницы -->
     <link href="css/p_2.css" rel="stylesheet">
+    <link href="css/p_2-media.css" rel="stylesheet">
   </head>
   <body>
     
@@ -19,7 +20,13 @@
     </div>
     
     <div class="slider">
-      <img src="img/slider.jpg" alt="">
+      <picture>
+        <source srcset="img/slider-tab-max.jpg" media="(min-width: 1280px)">
+        <source srcset="img/slider-tab-midi.jpg" media="(min-width: 1024px)">
+        <source srcset="img/slider-tab-mini.jpg" media="(min-width: 800px)">
+        <source srcset="img/slider.jpg">
+        <img srcset="img/slider.jpg">
+      </picture>
       <div class="slider-pagination">
         <a href="#" class="slider-pagination__item current"></a>
         <a href="#" class="slider-pagination__item"></a>

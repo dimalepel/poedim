@@ -1,0 +1,35 @@
+@media only screen and (max-width : 640px) {
+  /* шапка */
+  .header {
+    height: 56px;
+  }
+  .header-title {
+    font-size: 19px;
+  }
+  /* поля ввода */
+  .order-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .order-label {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  .order-input {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  /* select */
+  .form-select {
+    line-height: 45px;
+  }
+  /* текст */
+  .other-text {
+    font-size: 15px; 
+  }
+  /* кнопка */
+  .form-button-large {
+    font-size: 26px;
+    line-height: 81px;
+  }
+}

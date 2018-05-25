@@ -1,0 +1,33 @@
+@media only screen and (max-width : 640px) {
+  /* шапка */
+  .header {
+    height: 56px;
+  }
+  .header-title {
+    font-size: 19px;
+  }
+  /* слайдер */
+  .slider-pagination__item {
+    width: 13px;
+    height: 13px;
+    border-width: 4px;
+  }
+  .slider-pagination__item.current {
+    width: 17px;
+    height: 17px;
+  }
+  /* категории */
+  .section-title {
+    font-size: 18px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .category-title {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+  }
+  .col {
+    margin-bottom: 16px;
+  }
+}

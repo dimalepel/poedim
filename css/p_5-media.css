@@ -1,0 +1,57 @@
+@media only screen and (max-width : 640px) {
+  /* шапка */
+  .header {
+    height: 56px;
+  }
+  .header-title {
+    font-size: 19px;
+  }
+  /* иконка корзины */
+  .header-price {
+    font-size: 18px;
+  }
+  .header-price span {
+    font-size: 12px;
+  }
+  /* товар */
+  .single-product-title {
+    font-size: 31px;
+    margin-bottom: 26px;
+  }
+  .single-product-description {
+    font-size: 22px;
+    line-height: 31px;
+    margin-bottom: 32px;
+  }
+  .single-details {
+    padding-bottom: 77px;
+  }
+  /* характеристики */
+  .single-atr__item {
+    font-size: 22px;
+    margin: 0 25px;
+  }
+  .single-atr__item span {
+    font-size: 16px;
+  }
+  /* цена */
+  .single-footer {
+    height: 77px;
+  }
+  .single-product-price {
+    font-size: 22px;
+  }
+  .single-product-price span {
+    font-size: 14px;
+  }
+  /* счетчик */
+  .single-product-counter__text {
+    font-size: 22px;
+    width: 71px;
+    line-height: 22px;
+  }
+  .single-product-counter__active {
+    width: 22px;
+    height: 22px;
+  }  
+}

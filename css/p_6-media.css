@@ -1,0 +1,27 @@
+@media only screen and (max-width : 640px) {
+  /* шапка */
+  .header {
+    height: 56px;
+  }
+  .header-title {
+    font-size: 19px;
+  }
+  /* иконка корзины */
+  .header-price {
+    font-size: 18px;
+  }
+  .header-price span {
+    font-size: 12px;
+  }
+  /* новость в списке */
+  .news-item {
+    padding-top: 30px;
+  }
+  .news-title {
+    font-size: 22px;
+  }
+  .news-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

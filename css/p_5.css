@@ -12,6 +12,8 @@
   padding-right: 20px;
 }
 .single-details {
+  padding-bottom: 86px;
+  
   text-align: center;
 }
 .single-product-title {
@@ -65,7 +67,7 @@
   -ms-flex-align: center;
   align-items: center;
   
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
