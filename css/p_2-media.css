@@ -31,3 +31,28 @@
     margin-bottom: 16px;
   }
 }
+@media only screen and (max-width : 540px) {
+  /* шапка */
+  .header {
+    height: 48px;
+  }
+  .menu-trigger {
+    height: 15px;
+    background-size: contain;
+  }
+  .header-title {
+    font-size: 16px;
+  }
+   /* категории */
+  .section-title {
+    font-size: 15px;
+  }
+  .category-title {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+  .col {
+    margin-bottom: 12px;
+  }
+}

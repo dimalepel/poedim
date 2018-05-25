@@ -25,3 +25,34 @@
     line-height: 24px;
   }
 }
+@media only screen and (max-width : 540px) {
+  /* шапка */
+  .header {
+    height: 48px;
+  }
+  .menu-trigger {
+    height: 15px;
+    background-size: contain;
+  }
+  .header-title {
+    font-size: 16px;
+  }
+  /* иконка корзины */
+  .header-price {
+    font-size: 15px;
+    padding-left: 19px;
+    line-height: 15px;
+    background-size: contain;
+  }
+  .header-price span {
+    font-size: 10px;
+  }
+  /* новость в списке */
+  .news-title {
+    font-size: 18px;
+  }
+  .news-description {
+    font-size: 13px;
+    line-height: 21px;
+  }
+}

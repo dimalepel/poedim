@@ -5,6 +5,10 @@
     margin-top: 45px;
     margin-bottom: 45px;
   }
+  /* меню */
+  .nav {
+    width: 540px;
+  }
   /* первое меню */
   .main-list {
     padding-top: 47px;
@@ -39,5 +43,57 @@
   }
   .aside-phone span {
     font-size: 24px;
+  }
+}
+@media only screen and (max-width : 540px) {
+  /* логотип */
+  .logo {
+    max-width: 190px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+   /* меню */
+  .nav {
+    width: 454px;
+  }
+  /* первое меню */
+  .main-list {
+    padding-top: 42px;
+    padding-bottom: 24px;
+  }
+  .main-list__item {
+    font-size: 18px;
+    line-height: 56px;
+    padding-left: 32px;
+  }
+  /* второе меню */
+  .other-list {
+    padding-bottom: 28px;
+    margin-bottom: 24px;
+  }
+  .other-list__item {
+    font-size: 18px;
+    line-height: 56px;
+    padding-left: 32px;
+  }
+   /* социальные ссылки */
+  .social {
+    padding-left: 32px;
+  }
+  .social__item {
+    font-size: 15px;
+    margin-right: 65px;
+    line-height: 28px;
+    background-size: contain;
+    padding-left: 34px;
+  }
+   /* телефон */
+  .aside-phone {
+    font-size: 15px;
+    margin-left: 32px;
+    line-height: 28px;
+  }
+  .aside-phone span {
+    font-size: 20px;
   }
 }
