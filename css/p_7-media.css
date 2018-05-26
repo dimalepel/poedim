@@ -63,6 +63,7 @@
   /* select */
   .form-select {
     height: 45px;
+    line-height: 45px;
   }
   /* текст */
   .sale-alert {
@@ -151,6 +152,7 @@
   /* select */
   .form-select {
     height: 40px;
+    line-height: 40px;
     font-size: 15px;
   }
   /* текст */
@@ -239,6 +241,7 @@
    /* select */
   .form-select {
     height: 36px;
+    line-height: 36px;
     font-size: 13px;
     background-size: 12px;
   }
