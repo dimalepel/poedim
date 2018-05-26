@@ -26,6 +26,9 @@
   border-bottom: 1px solid #e7e7e7;
 }
 .product-thumbnail {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   display: block;
   width: 249px;
   height: 212px;
