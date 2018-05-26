@@ -78,3 +78,42 @@
     line-height: 70px;
   }
 }
+@media only screen and (max-width : 480px) {
+   /* шапка */
+  .header {
+    height: 42px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .header-title {
+    font-size: 14px;
+    padding: 0 110px;
+  }
+  /* поля ввода */
+  .order-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .order-label {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .order-input {
+    font-size: 13px;
+    line-height: 18px;
+  }
+   /* select */
+  .form-select {
+    height: 36px;
+    font-size: 13px;
+    background-size: 12px;
+  }
+  /* кнопка */
+  .form-button-large {
+    font-size: 19px;
+    line-height: 62px;
+    border-radius: 6px;
+  }
+}

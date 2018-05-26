@@ -56,3 +56,28 @@
     margin-bottom: 12px;
   }
 }
+@media only screen and (max-width : 480px) {
+  /* шапка */
+  .header {
+    height: 42px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .header-title {
+    font-size: 14px;
+    padding: 0 110px;
+  }
+   /* категории */
+   .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-title {
+    font-size: 13px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  .category-title {
+    font-size: 12px;
+  }
+}

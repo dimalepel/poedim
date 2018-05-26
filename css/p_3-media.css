@@ -92,8 +92,58 @@
     font-size: 15px;
     margin-left: 32px;
     line-height: 28px;
+    margin-bottom: 48px;
   }
   .aside-phone span {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width : 480px) {
+   /* логотип */
+  .logo {
+    max-width: 168px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+  }
+   /* меню */
+  .nav {
+    width: 404px;
+  }
+  /* первое меню */
+  .main-list {
+    padding-top: 34px;
+    padding-bottom: 19px;
+  }
+  .main-list__item {
+    font-size: 15px;
+    line-height: 53px;
+    padding-left: 28px;
+  }
+  /* второе меню */
+  .other-list {
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+  }
+  .other-list__item {
+    font-size: 15px;
+    line-height: 53px;
+    padding-left: 28px;
+  }
+   /* социальные ссылки */
+  .social {
+    padding-left: 28px;
+  }
+  .social__item {
+    font-size: 13px;
+    margin-right: 58px;
+  }
+  /* телефон */
+  .aside-phone {
+    font-size: 13px;
+    margin-left: 28px;
+    margin-bottom: 42px;
+  }
+  .aside-phone span {
+    font-size: 17px;
   }
 }
